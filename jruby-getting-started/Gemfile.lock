@@ -50,11 +50,19 @@ GEM
       coffee-script-source
       execjs
     coffee-script-source (1.12.2)
+    discogs-wrapper (2.4.0)
+      hashie (~> 3.0)
+      httparty (~> 0.14)
+      oauth (~> 0.5.1)
     erubis (2.7.0)
     execjs (2.7.0)
     globalid (0.3.7)
       activesupport (>= 4.1.0)
+    hashie (3.6.0)
     hike (1.2.3)
+    httparty (0.16.3)
+      mime-types (~> 3.0)
+      multi_xml (>= 0.5.2)
     i18n (0.8.1)
     jbuilder (2.6.3)
       activesupport (>= 3.0.0, < 5.2)
@@ -76,9 +84,11 @@ GEM
     mini_portile2 (2.1.0)
     minitest (5.10.1)
     multi_json (1.12.1)
+    multi_xml (0.6.0)
     nokogiri (1.7.1)
       mini_portile2 (~> 2.1.0)
     nokogiri (1.7.1-java)
+    oauth (0.5.4)
     puma (3.8.2)
     puma (3.8.2-java)
     rack (1.6.5)
@@ -156,6 +166,7 @@ PLATFORMS
 DEPENDENCIES
   activerecord-jdbcpostgresql-adapter
   coffee-rails (~> 4.0.0)
+  discogs-wrapper
   jbuilder (~> 2.0)
   jquery-rails
   puma
@@ -172,4 +183,4 @@ RUBY VERSION
    ruby 2.3.1p0 (jruby 9.1.8.0)
 
 BUNDLED WITH
-   1.13.1
+   1.16.6
